@@ -6,23 +6,23 @@ class Grofe < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/termage/grofe/releases/download/v0.6.0/grofe-v0.6.0-aarch64-apple-darwin.tar.gz"
-      sha256 "5e4a856e7fd5e58a9bd6a6629133cfd7d03d951f1d383d7f31842e2b4af11d62"
+      url "https://github.com/termage/grofe/releases/download/v0.7.0/grofe-v0.7.0-aarch64-apple-darwin.tar.gz"
+      sha256 "ed8f072c7bac9d0916c8b6ee94d136f3175418ba49ca5898753bbf8511669ced"
     end
     on_intel do
-      url "https://github.com/termage/grofe/releases/download/v0.6.0/grofe-v0.6.0-x86_64-apple-darwin.tar.gz"
-      sha256 "a389cc7418d8e62e338a8890a8b77b8ec699312d916402b9be9336ba7dc9cdec"
+      url "https://github.com/termage/grofe/releases/download/v0.7.0/grofe-v0.7.0-x86_64-apple-darwin.tar.gz"
+      sha256 "23828679ae7115c476f3f3fcd65a5868c8cb0f5d3a77d0b3e177dd03040beb09"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/termage/grofe/releases/download/v0.6.0/grofe-v0.6.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "7436f302a4308b2ca714e99beb1757a1824887ea75b23c186f34b89b09cfb790"
+      url "https://github.com/termage/grofe/releases/download/v0.7.0/grofe-v0.7.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "03c62892ac021eaea6718cda3bd643715dfd135660aeb908a611005778f9f207"
     end
     on_intel do
-      url "https://github.com/termage/grofe/releases/download/v0.6.0/grofe-v0.6.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "2ea46b5c5c15429d8d7852b00ce451050e8dc3b944a8d70d01fcc4d993e7c9fd"
+      url "https://github.com/termage/grofe/releases/download/v0.7.0/grofe-v0.7.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "6ab19e7afda0eaaab78846c9e73e0a7d7ddc7fbe69b17f983b83a01c28ac23c3"
     end
   end
 
